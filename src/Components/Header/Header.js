@@ -1,13 +1,17 @@
 import React from 'react';
-import field from  '../../Images/field.jpg'
+import code from  '../../Images/code.jpg'
+
 import './Header.css'
 const Header = () => {
     return (
         <div>
-            <img src={field} alt="" style={{ height: "600px", width: "100%" }} />
+            <img src={code} alt="" style={{ height: "400px", width: "100%" }} />
             <div className="centered">
-                <h1>Sports Talks</h1>
+                <h2 className='text-white text-center'>Tech Blog</h2>
+                <br />
+                {/* <h4 className='text-white'>Know every exiting technology blog from our site</h4> */}
             </div>
+           
 
         </div>
     );
