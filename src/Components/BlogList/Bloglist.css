@@ -1,16 +1,3 @@
-.blog-post{
-    white-space: nowrap; 
-
-    overflow: hidden;
-    text-overflow: ellipsis;
-    
-}
-body{
-    /* background-color: #0e1217; */
-    background-color: white;
-   
-}
-
 .single-post{
     /* border: 1px solid black; */
     /* background-color: #1c1f26; */
@@ -23,9 +10,4 @@ body{
 .post-image{
     border-radius: 5px;
     height: 80%;
-}
-.logo{
-    margin-top: 10px;
-    height: 30px;
-    margin-right: 10px;
 }

@@ -1,13 +1,13 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar'
+
 import Header from '../Header/Header'
-import PostList from '../PostList/PostList'
+import Post from '../Post/Post'
 const Home = () => {
     return (
         <div>
-            <Navbar/>
+            
             <Header/>
-            <PostList/>
+            <Post/>
         </div>
     );
 };
