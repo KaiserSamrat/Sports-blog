@@ -3,6 +3,7 @@ import Home from './Components/Home/Home'
 import Navbar from './Components/Navbar/Navbar'
 import AddBlog from './Components/AddBlog/AddBlog'
 import BlogDetails from './Components/BlogDetails/BlogDetails'
+import Login from './Components/Login/Login'
 import {
   BrowserRouter as Router,
   Switch,
@@ -18,6 +19,9 @@ function App() {
 
           <Route exact path='/'>
             <Home />
+          </Route>
+          <Route exact path='/login'>
+            <Login />
           </Route>
           <Route exact path='/addBlog'>
             <AddBlog />

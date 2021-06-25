@@ -17,7 +17,7 @@ const Nabvar = () => {
                                 <Link class="nav-link active" aria-current="page" to="/">Home</Link>
                             </li>
                             <li class="nav-item">
-                                <Link to='/' class="nav-link ms-3" href="#footer-area">Popular</Link>
+                                <Link to='/login' class="nav-link ms-3" href="#footer-area">Login</Link>
                             </li>
                             <li class="nav-item">
                                 <Link to='/' class="nav-link ms-3" href="#footer-area">User</Link>

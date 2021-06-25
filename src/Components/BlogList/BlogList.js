@@ -5,12 +5,12 @@ const BlogList = (props) => {
     const { _id, title, img, description } = props.blog
     return (
     
-        <div className="row">
+        <div className="row blogList">
        <Link to={`/blogDetails/${_id}`}>
        <div className="col-md-4 single-post">
             <div>
-                <h5 className='text-white'>{title}</h5>
-                <p className='text-dark'>{description}</p>
+                <h5 className=' text-dark '>{title}</h5>
+                <p className='text-dark description'>{description}</p>
             </div>
             <img className="card-img-top post-image" src={img} alt="tamimImage" />
         </div>
