@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-;
+
 
 const Nabvar = () => {
     return (
-        <div>
+        <div >
             <nav class="navbar navbar-expand-lg navbar-light bg-light ">
                 <div class="container-fluid">
                     <Link class="navbar-brand" to="/">Tech Blog</Link>
@@ -23,7 +23,7 @@ const Nabvar = () => {
                                 <Link to='/' class="nav-link ms-3" href="#footer-area">User</Link>
                             </li>
                             <li class="nav-item">
-                                <Link to='/' class="nav-link ms-3" href="#footer-area">Admin</Link>
+                                <Link to='/admin' class="nav-link ms-3" href="#footer-area">Admin</Link>
                             </li>
 
                             <li class="nav-item">

@@ -14,9 +14,9 @@ const BlogDetails = () => {
     },[])
     return (
         <div className="container">
-            <h4 className='text-center mt-3'>{blogDetails.title}</h4>
+            <h4 className='text-center m-4'>{blogDetails.title}</h4>
             <img className='rounded mx-auto d-block h-50 w-50 mt-3' src={blogDetails.img} alt='img-description'></img>
-            <p className='text-center'>{blogDetails.description}</p>
+            <p className=' text-justify mt-5'>{blogDetails.description}</p>
         </div>
     );
 };

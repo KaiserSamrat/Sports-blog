@@ -4,11 +4,14 @@ import Navbar from './Components/Navbar/Navbar'
 import AddBlog from './Components/AddBlog/AddBlog'
 import BlogDetails from './Components/BlogDetails/BlogDetails'
 import Login from './Components/Login/Login'
+import PrivateRoute from "./Components/PrivateRoute/PrivateRoute";
+import AllBlogList from "./Components/AllBlogList/AllBlogList";
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
+import AdminDashBord from "./Components/Admin/AdminDashBord";
 
 function App() {
   return (
@@ -23,8 +26,14 @@ function App() {
           <Route exact path='/login'>
             <Login />
           </Route>
-          <Route exact path='/addBlog'>
+          <PrivateRoute  path='/addBlog'>
             <AddBlog />
+          </PrivateRoute>
+          <Route path='/admin'>
+            <AdminDashBord/>
+          </Route>
+          <Route path='/deleteBlog'>
+            <AllBlogList/>
           </Route>
           <Route path='/blogDetails/:id'>
             <BlogDetails/>

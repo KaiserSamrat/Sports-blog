@@ -10,33 +10,33 @@ export const SideListData = [
       cName: 'nav-text'
     },
     {
-      title: 'Reports',
+      title: 'React',
       path: '/reports',
       icon: <IoIcons.IoIosPaper />,
       cName: 'nav-text'
     },
     {
-      title: 'Products',
+      title: 'JavaScript',
       path: '/products',
-      icon: <FaIcons.FaCartPlus />,
+      icon: <IoIcons.IoIosPaper />,
       cName: 'nav-text'
     },
     {
-      title: 'Team',
+      title: 'Python',
       path: '/team',
-      icon: <IoIcons.IoMdPeople />,
+      icon: <IoIcons.IoIosPaper />,
       cName: 'nav-text'
     },
     {
-      title: 'Messages',
+      title: 'Django',
       path: '/messages',
-      icon: <FaIcons.FaEnvelopeOpenText />,
+      icon: <IoIcons.IoIosPaper />,
       cName: 'nav-text'
     },
     {
-      title: 'Support',
+      title: 'Laravel',
       path: '/support',
-      icon: <IoIcons.IoMdHelpCircle />,
+      icon: <IoIcons.IoIosPaper />,
       cName: 'nav-text'
     }
   ];
