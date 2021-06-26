@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 const Post = () => {
     const [blogList, setBlogList] = useState([])
     useEffect(() => {
-        fetch('http://localhost:4000/blogs')
+        fetch('https://sleepy-falls-46675.herokuapp.com/blogs')
             .then(res => res.json())
             .then(data => setBlogList(data))
     })

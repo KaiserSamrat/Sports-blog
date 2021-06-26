@@ -5,7 +5,7 @@ const SingleBlogData = (props) => {
     const { _id, title, description } = props.job;
     const history = useHistory();
     const handleDelete = () => {
-        fetch(`http://localhost:4000/deleteJob/${_id}`, {
+        fetch(`https://sleepy-falls-46675.herokuapp.com/deleteJob/${_id}`, {
             method: 'DELETE',
         })
             .then(res => res.json())
