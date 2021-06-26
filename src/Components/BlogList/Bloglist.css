@@ -4,12 +4,15 @@
     background-color: whitesmoke;
     border-radius: 5px;
     padding: 20px;
-    margin: 5px;
+    margin: 10px;
     width: 320px;
+    height: 300px;
+    
 }
+
 .post-image{
     border-radius: 5px;
-    height: 80%;
+   height: 150px;
 }
 .description{
     white-space: nowrap;
@@ -17,7 +20,7 @@
   	text-overflow: ellipsis;
 }
 .blogList{
-    color: #0060B6;
+    
     text-decoration: none;
-    display: flex;
+   
 }

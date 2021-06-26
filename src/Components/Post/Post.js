@@ -18,14 +18,15 @@ const Post = () => {
                 <div className="col-md-1">
                     <SideList />
                 </div>
-                <div className="col-md-10">
+                </div>
+                <div className="row container">
                     {
                         blogList.map(blog => <BlogList blog={blog}></BlogList>)
                     }
 
                 </div>
             </div>
-        </div>
+       
     );
 };
 

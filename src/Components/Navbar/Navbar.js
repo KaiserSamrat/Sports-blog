@@ -19,16 +19,12 @@ const Nabvar = () => {
                             <li class="nav-item">
                                 <Link to='/login' class="nav-link ms-3" href="#footer-area">Login</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link to='/' class="nav-link ms-3" href="#footer-area">User</Link>
-                            </li>
+                            
                             <li class="nav-item">
                                 <Link to='/admin' class="nav-link ms-3" href="#footer-area">Admin</Link>
                             </li>
 
-                            <li class="nav-item">
-                                <Link to='/' class="nav-link ms-3" href="#services-area">User</Link>
-                            </li>
+                          
 
 
 

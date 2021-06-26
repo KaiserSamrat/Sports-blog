@@ -29,9 +29,9 @@ function App() {
           <PrivateRoute  path='/addBlog'>
             <AddBlog />
           </PrivateRoute>
-          <Route path='/admin'>
+          <PrivateRoute path='/admin'>
             <AdminDashBord/>
-          </Route>
+          </PrivateRoute>
           <Route path='/deleteBlog'>
             <AllBlogList/>
           </Route>
